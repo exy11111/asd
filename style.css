@@ -107,6 +107,9 @@ div{
 .sec-light h1{
 	font-size: 50px;
 }
+.sec-light .up h1{
+	font-size: 50px;
+}
 .sec-light p{
 	font-size: 20px;
 }
