@@ -49,7 +49,7 @@ div{
 	display: block;
 }
 
-.pmg1, .pmg2, .pmg3{
+.pmg1, .pmg2, .pmg3, .pmg4{
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -69,6 +69,10 @@ div{
 }
 .pmg3{
 	background-image:url('pmg3.png');
+	min-height: 700px;
+}
+.pmg4{
+	background-image:url('pmg4.png');
 	min-height: 700px;
 }
 
@@ -125,6 +129,9 @@ div{
 
 .ffleft{float: left;}	.ffright{float: right;}
 
+.crd1{
+	overflow: hidden;
+}
 .crd11{
 	width: 30%;
 	margin-left: 10%;
@@ -160,3 +167,21 @@ indent{
 	color: #222222;
 }
 
+label{
+	font-size: 20px;
+}
+
+input.ic{
+	width: 600px;
+	height: 50px;
+	font-size: 15px;
+}
+input.msg{
+	width: 600px;
+	height: 200px;
+	font-size: 15px;
+}
+.tbtn{
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
