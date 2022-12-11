@@ -1,0 +1,162 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+ul.navbar{
+	list-style-type: none;
+	background-color: #282e34;
+	position: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	height: 60px;
+	overflow: hidden;
+	z-index: 2;
+}
+.navbar li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+li.cname{
+	float: left;
+	font-size: 18px;
+	margin-left: 50px;
+	display: block;
+}
+
+li a:hover:not(.active){
+	background-color: #222222;
+}
+
+.active{
+	text-decoration: underline;
+	background-color: #111111;
+}
+
+div{
+	display: block;
+}
+
+.pmg1, .pmg2, .pmg3{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.pmg1{
+	background-image:url('pmg1.png');
+	min-height: 100%;
+}
+
+.pmg2{
+	background-image:url('pmg2.png');
+	min-height: 700px;
+}
+.pmg3{
+	background-image:url('pmg3.png');
+	min-height: 700px;
+}
+
+.crd1{
+	width: 400px;
+	height: 600px;
+	margin-bottom: 50px;
+}
+
+.ptxt{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 30px;
+	color: #000;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.border{
+	background-color: #222222;
+	color: #ffffff;
+	padding: 20px;
+	font-size: 50px;
+}
+
+.sec-light{
+	padding: 100px;
+	color: #666;
+}
+.sec-dark{
+	padding: 100px;
+	color: #ddd;
+}
+
+.container-dark{
+	background-color:#282e34;
+	width: 100%;
+	height: 800px;
+}
+.container-dark .cdleft{
+	width: 30%;
+	float: left;
+}
+.container-dark .cdright{
+	width: 30%;
+	float: right;
+}
+.container-dark .cdcenter{
+	width: 30%;
+	margin: 50px auto;
+}
+
+.ffleft{float: left;}	.ffright{float: right;}
+
+.crd11{
+	width: 30%;
+	margin-left: 10%;
+}
+.crd12{
+	width: 50%;
+	margin-right: 10%;
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+.hmenu h2{
+	font-size: 30px;
+}
+.hmenu li{
+	font-size: 22px;
+}
+.hmenu{
+	margin-bottom: 50px;
+}
+
+indent{
+	margin-left: 200px;
+}
+
+.btn{
+	padding: 20px 40px;
+	background-color: #ddd;
+	text-decoration: none;
+	text-align: center;
+	color: #222222;
+}
+
