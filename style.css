@@ -21,7 +21,7 @@ ul.navbar{
 	float: right;
 }
 
-li a{
+.navbar li a{
 	display: block;
 	color: white;
 	text-align: center;
@@ -171,6 +171,9 @@ div{
 	text-align: center;
 	color: #222222;
 }
+.btn:hover{
+	text-decoration: underline;
+}
 
 label{
 	font-size: 20px;
@@ -194,8 +197,8 @@ input.msg{
 .footer{
 	background-color: #eee9e2;
 	width: 100%;
-	height: 400px;
-	padding-bottom:160px;
+	height: 350px;
+	padding-bottom:50px;
 }
 .ccf{
 	padding: 80px 80px 0px 80px;
@@ -206,4 +209,68 @@ input.msg{
 }
 .ccf p{
 	font-size: 20px;
+}
+.ct{
+	font-size: 20px;
+}
+
+con1{
+	width: 100%;
+}
+
+
+.con1 h1{
+	font-size: 50px;
+}
+.con1 h2{
+	font-size: 30px;
+}
+
+.con2{
+	color: #666;
+	padding: 100px;
+}
+.con2 table{
+	margin-top: -50px;
+}
+.con2 table tr td{
+	padding: 50px;
+}
+
+.con3{
+	width: 550px;
+	height: 475px;
+	padding: 10px;
+	background-color: #d4d5d6;
+}
+.con3 p{
+	margin-bottom: -15px;
+	font-size: 20px;
+}
+
+.con3 img{
+	width: 500px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.con3 a{
+	display: inline-block;
+	margin:15px 0 0 190px;
+	padding: 20px 40px;
+	background-color: #53585d;
+	text-decoration: none;
+	text-align: center;
+	color: #eee;
+}
+.con3 a:hover{
+	text-decoration: underline;
+}
+
+.contxt{
+	width: 400px;
+	height: 60px;
+	letter-spacing: 4px;
+	margin-left: 50px;
 }
