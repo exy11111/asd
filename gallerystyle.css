@@ -2,7 +2,7 @@
 	width: 1024px;
 	height: 680px;
 	background: url("pmg1.png");
-	animation: changebg 10s infinite;
+	animation: changebg 15s infinite;
 	position: relative;
 	z-index: 0;
 	background-size: cover;

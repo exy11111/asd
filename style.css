@@ -145,7 +145,7 @@ div{
 }
 .crd11{
 	width: 30%;
-	margin-left: 10% auto;
+	margin: 0.1% auto;
 	position: absolute;
 }
 .crd12{
@@ -228,6 +228,9 @@ con1{
 .con1 h2{
 	font-size: 30px;
 }
+.con1 p{
+	font-size: 20px;
+}
 
 .con2{
 	color: #666;
@@ -235,7 +238,7 @@ con1{
 	width: 65%;
 }
 .con2 table{
-	margin-top: -50px;
+	margin-top: -20px;
 }
 .con2 table tr td{
 	padding: 50px;
@@ -280,7 +283,7 @@ con1{
 }
 
 .w3w{
-	width: 110%;
+	width: 140%;
 	height: 10px;
 	margin-left: -20px;
 	background-color: #666;
